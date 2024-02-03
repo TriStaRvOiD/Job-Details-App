@@ -1,13 +1,7 @@
-# Expo Router Example
+# Job Details App
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+A job details app made using React Native and Expo, through [this](https://www.youtube.com/watch?v=mJ3bGvy0WAY) tutorial.
 
-## 🚀 How to use
+## License
 
-```sh
-npx create-expo-app -e with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+This website's code is available under a GPL v3 license. This excludes the icons, fonts, logos and assets used.

@@ -5,9 +5,25 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/JosefinSans-Regular.ttf",
+            "./assets/fonts/JosefinSans-Bold.ttf",
+            "./assets/fonts/JosefinSans-Medium.ttf"
+          ]
+        }
+      ]
     ],
     "name": "JobDetails",
-    "slug": "JobDetails"
+    "slug": "JobDetails",
+    "android": {
+      "package": "com.tristarvoid.jobdetails"
+    },
+    "ios": {
+      "bundleIdentifier": "com.tristarvoid.jobdetails"
+    }
   }
 }
